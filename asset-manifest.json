@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/powerhypergithubpages/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/powerhypergithubpages/static/js/main.6454cb3a.chunk.js",
+    "main.js.map": "/powerhypergithubpages/static/js/main.6454cb3a.chunk.js.map",
+    "runtime-main.js": "/powerhypergithubpages/static/js/runtime-main.cfae2460.js",
+    "runtime-main.js.map": "/powerhypergithubpages/static/js/runtime-main.cfae2460.js.map",
+    "static/js/2.8f447d0c.chunk.js": "/powerhypergithubpages/static/js/2.8f447d0c.chunk.js",
+    "static/js/2.8f447d0c.chunk.js.map": "/powerhypergithubpages/static/js/2.8f447d0c.chunk.js.map",
+    "static/js/3.ab7e22a4.chunk.js": "/powerhypergithubpages/static/js/3.ab7e22a4.chunk.js",
+    "static/js/3.ab7e22a4.chunk.js.map": "/powerhypergithubpages/static/js/3.ab7e22a4.chunk.js.map",
+    "index.html": "/powerhypergithubpages/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/powerhypergithubpages/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.8f447d0c.chunk.js.LICENSE.txt": "/powerhypergithubpages/static/js/2.8f447d0c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/powerhypergithubpages/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfae2460.js",
+    "static/js/2.8f447d0c.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.6454cb3a.chunk.js"
+  ]
+}
