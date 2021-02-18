@@ -7,6 +7,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import './Home.css';
 
 export class Home extends React.Component {
+    //todo: video to show changes in powersources over time, like the ones on instagram where most used jumps to top
     render() {
         return (
             <div className="my-5 ml-custom mr-custom">

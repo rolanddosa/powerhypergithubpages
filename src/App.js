@@ -4,8 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {Ambition} from "./components/Ambition";
-import Route from "react-router-dom/es/Route";
-import BrowserRouter from "react-router-dom/es/BrowserRouter";
+import {BrowserRouter, HashRouter, Route} from "react-router-dom";
 import {Home} from "./components/Home";
 import {Timeline} from "./components/Timeline/Timeline";
 import {EnergyEconomics} from "./components/EnergyEconomics";
@@ -16,8 +15,7 @@ import {LiveTracker} from "./components/LiveTracker";
 
 function App() {
     return (
-        <BrowserRouter>
-            <div className="App">
+        <HashRouter>
                 <Navbar/>
                 <Route path="/" exact component={Home}/>
                 <Route path={"/ambition"} component={Ambition}/>
@@ -27,8 +25,7 @@ function App() {
                 <Route path={"/energyAttributeCertificates"} component={EnergyAttributeCertificates}/>
                 <Route path={"/machineLearning"} component={MachineLearning}/>
                 <Footer/>
-            </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
