@@ -1,10 +1,11 @@
 import React from "react";
 import './Footer.css';
 import InstagramIcon from '../images/instagram_icon.png';
+import TwitterIcon from '../images/twitter_icon.png';
 
 function Footer() {
     return (
-        <footer id={"footerMain"} >
+        <footer id={"footerMain"}>
             <div className="container text-center text-md-left">
                 <div className="row text-center text-md-left mt-3 pb-3">
                     <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -28,13 +29,17 @@ function Footer() {
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 className="mb-4 font-weight-bold WhiteFont">Contact</h6>
                         <p className={'WhiteFont'}>
-                            <i className="fas fa-envelope mr-3"></i>✉ info@powerhyper.com</p>
+                            <i className="fas fa-envelope mr-3"></i>✉ info@powerhyper.org</p>
                         <p/>
                     </div>
                 </div>
                 <div className="text-center">
-                    <a href="https://www.instagram.com/_powerhyper_/" target="_blank"><img
-                        src={InstagramIcon} height={32} width={32}/></a>
+                    <li>
+                        <a href="https://www.instagram.com/_powerhyper_/" target="_blank"><img
+                            src={InstagramIcon} height={32} width={32}/></a>
+                        <a href="https://twitter.com/PowerHyper2021" target="_blank"><img
+                            src={TwitterIcon} height={28} width={50}/></a>
+                    </li>
                 </div>
                 <hr className={'WhiteBorder'}/>
                 <div className="row d-flex align-items-center">
@@ -42,7 +47,7 @@ function Footer() {
                         <p className="text-center text-md-left WhiteFont">© {(new Date().getFullYear())}:
                             <strong> Power Hyper</strong>
                         </p>
-                    </div>
+v                    </div>
                     <div className="col-md-5 col-lg-4 ml-lg-0">
                         <div className="text-center text-md-right">
                             <ul className="list-unstyled list-inline">
