@@ -4,6 +4,7 @@ import InvestmentsImage from '../images/investments.png';
 import WindImage from '../images/wind.jpg';
 import SolarImage from '../images/solar.jpg';
 import Carousel from 'react-bootstrap/Carousel'
+import CO2Levels from '../images/CO2_history.jpg'
 import './Home.css';
 
 export class Home extends React.Component {
@@ -21,6 +22,12 @@ export class Home extends React.Component {
                 <br/>
                 <br/>
                 <Carousel className={'carousel'}>
+                    <Carousel.Item>
+                        <img
+                            className="d-block h-100 w-100"
+                            src={CO2Levels}
+                        />
+                    </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block h-100 w-100"
