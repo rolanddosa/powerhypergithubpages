@@ -10,8 +10,8 @@ import {Timeline} from "./components/Timeline/Timeline";
 import {EnergyEconomics} from "./components/EnergyEconomics";
 import 'bootstrap';
 import {EnergyAttributeCertificates} from "./components/EnergyAttributeCertificates";
-import {MachineLearning} from "./components/MachineLearning";
 import {LiveTracker} from "./components/LiveTracker";
+import MachineLearning from "./components/MachineLearning";
 
 function App() {
     return (

@@ -1,4 +1,5 @@
 import * as React from "react";
+import YouTube from "react-youtube";
 
 export class EnergyEconomics extends React.Component {
     render() {
@@ -33,6 +34,8 @@ export class EnergyEconomics extends React.Component {
                     href="http://www.crowdfundres.eu/index.html@p=4.html"
                     target="_blank">CROWDFUNDRES</a> project,
                     with funding from the European Union Horizon 2020 research and innovation programme.</p>
+                <YouTube videoId="yQj6MSsTulg">
+                </YouTube>
             </div>
         )
     }
