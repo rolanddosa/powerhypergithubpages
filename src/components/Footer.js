@@ -10,11 +10,12 @@ function Footer() {
                 <div className="row text-center text-md-left mt-3 pb-3">
                     <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                         <p>
-                            <a className="mb-4 font-weight-bold WhiteFont"> About us </a>
+                            <a className="mb-4 font-weight-bold WhiteFont">About</a>
                         </p>
-                        <p className={'WhiteFont'}> PowerHyper covers initiatives aiding the transition to
-                            renewable energy. It is a platform that evaluates all applicable topics and
-                            facilitates relevant actions.
+                        <p className={'WhiteFont'}> PowerHyper shares ideas and studies in helping with the transition
+                            to
+                            renewable energy. It is a platform which aims to give the readers useful summaries,
+                            contacts and further study points.
                         </p>
                     </div>
                     <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
@@ -34,17 +35,15 @@ function Footer() {
                     </div>
                 </div>
                 <div className="text-center">
-                    <li>
-                        <a href="https://www.instagram.com/_powerhyper_/" target="_blank"><img
-                            src={InstagramIcon} height={32} width={32}/></a>
-                        <a href="https://twitter.com/PowerHyper2021" target="_blank"><img
-                            src={TwitterIcon} height={28} width={50}/></a>
-                    </li>
+                    <a href="https://www.instagram.com/_powerhyper_/" target="_blank"><img
+                        src={InstagramIcon} height={32} width={32}/></a>
+                    <a href="https://twitter.com/PowerHyper2021" target="_blank"><img
+                        src={TwitterIcon} height={28} width={50}/></a>
                 </div>
                 <hr className={'WhiteBorder'}/>
                 <div className="row d-flex align-items-center">
                     <div className="col-md-7 col-lg-8">
-                        <p className="text-center text-md-left WhiteFont">© {(new Date().getFullYear())}:
+                        <p className="text-center text-md-left WhiteFont">&nbsp;&nbsp;&nbsp;{(new Date().getFullYear())}:
                             <strong> Power Hyper</strong>
                         </p>
                     </div>
@@ -77,11 +76,9 @@ function Footer() {
                 </div>
             </div>
             <div align="center">
-                <a href="#" className="customHref WhiteFont"><span className="label label-info">Privacy</span>
-                </a>
-                <a className={'WhiteFont ThinFont'}> | </a>
-                <a className="customHref WhiteFont">Disclaimer</a>
+                <a href="#/copyrightDisclaimer" className="customHref WhiteFont">Copyright Disclaimer</a>
             </div>
+            <br/>
         </footer>
 
     )

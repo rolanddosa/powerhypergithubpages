@@ -12,6 +12,7 @@ import 'bootstrap';
 import {EnergyAttributeCertificates} from "./components/EnergyAttributeCertificates";
 import {LiveTracker} from "./components/LiveTracker";
 import MachineLearning from "./components/MachineLearning";
+import CopyrightDisclaimer from "./components/CopyrightDisclaimer";
 import Startups from "./components/Startups";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path={"/energyAttributeCertificates"} component={EnergyAttributeCertificates}/>
                 <Route path={"/machineLearning"} component={MachineLearning}/>
                 <Route path={"/startups"} component={Startups}/>
+                <Route path={"/copyrightDisclaimer"} component={CopyrightDisclaimer}/>
                 <Footer/>
         </HashRouter>
     );

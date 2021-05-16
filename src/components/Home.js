@@ -6,6 +6,8 @@ import SolarImage from '../images/solar.jpg';
 import Carousel from 'react-bootstrap/Carousel'
 import CO2Levels from '../images/CO2_history.jpg'
 import './Home.css';
+import FadeIn from 'react-fade-in';
+
 
 export class Home extends React.Component {
     //todo: video to show changes in powersources over time, like the ones on instagram where most used jumps to top
@@ -13,11 +15,18 @@ export class Home extends React.Component {
         return (
             <div className="my-5 ml-custom mr-custom">
                 <br/>
-                <p>Power Hyper has the mission to support all activities contributing
-                    to the
-                    transition to a world running on renewable energy. It provides analysis and
-                    suggestions on steps to reach that goal.
-                </p>
+                <FadeIn>
+                    <div>
+                        <p>PowerHyper shares ideas and studies in helping with the transition to
+                            renewable energy.
+                            <br/>
+                        </p>
+                    </div>
+                    <div style={{textIndent: '50px'}}>
+                        It is a platform which gives the readers useful summaries,
+                        contacts and further study points.
+                    </div>
+                </FadeIn>
                 <br/>
                 <br/>
                 <br/>
