@@ -47,7 +47,7 @@ function Footer() {
                         <p className="text-center text-md-left WhiteFont">© {(new Date().getFullYear())}:
                             <strong> Power Hyper</strong>
                         </p>
-v                    </div>
+                    </div>
                     <div className="col-md-5 col-lg-4 ml-lg-0">
                         <div className="text-center text-md-right">
                             <ul className="list-unstyled list-inline">

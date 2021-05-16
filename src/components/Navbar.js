@@ -35,8 +35,8 @@ function Navbar() {
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a className="dropdown-item" href="#/energyAttributeCertificates">Energy Attribute
                                     Certificates</a>
-                                <a className="dropdown-item" href="#/machineLearning">Energy Demand
-                                    Prediction - Machine Learning</a>
+                                <a className="dropdown-item" href="#/machineLearning">Machine Learning</a>
+                                <a className="dropdown-item" href="#/startups">Startups</a>
                             </div>
                         </li>
                     </ul>

@@ -6,6 +6,7 @@
   "dependencies": {
     "@react-pdf-viewer/core": "latest",
     "@react-pdf-viewer/scroll-mode": "^2.4.3",
+    "@react-pdf-viewer/zoom": "^2.4.3",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
