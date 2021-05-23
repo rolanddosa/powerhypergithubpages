@@ -13,8 +13,7 @@ function Footer() {
                             <a className="mb-4 font-weight-bold WhiteFont">About</a>
                         </p>
                         <p className={'WhiteFont'}> PowerHyper shares ideas and studies in helping with the transition
-                            to
-                            renewable energy. It is a platform which aims to give the readers useful summaries,
+                            to renewable energy. It is a platform which aims to give the readers useful summaries,
                             contacts and further study points.
                         </p>
                     </div>

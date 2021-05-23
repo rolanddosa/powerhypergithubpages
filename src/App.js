@@ -14,6 +14,10 @@ import {LiveTracker} from "./components/LiveTracker";
 import MachineLearning from "./components/MachineLearning";
 import CopyrightDisclaimer from "./components/CopyrightDisclaimer";
 import Startups from "./components/Startups";
+//TODO:
+//https://earthobservatory.nasa.gov/global-maps
+//https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data
+//more technical IR explanation https://www.youtube.com/watch?v=AF1JPg20amY
 
 function App() {
     return (
