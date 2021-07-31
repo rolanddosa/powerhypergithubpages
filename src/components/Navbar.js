@@ -23,8 +23,14 @@ function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="#/timeline">Timeline</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#/energyEconomics">Energy Economics</a>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Energy Economics</a>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a className="dropdown-item" href="#/energyEconomics">Energy Economics</a>
+                                <a className="dropdown-item" href="#/powerPurchaseAgreements">Power Purchase Agreements (PPA)</a>
+                                <a className="dropdown-item" href="#/energyMarkets">Energy Markets</a>
+                            </div>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#/liveTracker">Live Tracker</a>
@@ -36,6 +42,9 @@ function Navbar() {
                                 <a className="dropdown-item" href="#/energyAttributeCertificates">Energy Attribute
                                     Certificates</a>
                                 <a className="dropdown-item" href="#/machineLearning">Machine Learning</a>
+                                <a className="dropdown-item" href="#/sustinableInvesting">Sustainable Investing</a>
+                                <a className="dropdown-item" href="#/communityEnergy">Community Energy</a>
+                                <a className="dropdown-item" href="#/circularEconomy">Circular Economy</a>
                                 <a className="dropdown-item" href="#/startups">Startups</a>
                             </div>
                         </li>

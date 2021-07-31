@@ -5,7 +5,7 @@ export class EnergyEconomics extends React.Component {
     render() {
         return (
             <div className="my-5 ml-custom mr-custom">
-                <h3>The Economics</h3>
+                <h3>Energy Economics</h3>
                 <br/>
                 <h5>Government and Policy</h5>
                 <p>Stable policies play the key role of attracting investments. Unstable policies

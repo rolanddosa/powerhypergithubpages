@@ -16,7 +16,7 @@ function MachineLearning() {
     return (
         <div>
             <div style={{textIndent: '50px'}} className={'mt-5'}>
-            White Paper - "Tackling Climate Change with Machine Learning" - source:
+                White Paper - "<b>Tackling Climate Change with Machine Learning</b>" - source:
                 <a href="https://www.climatechange.ai/" target="_blank"> https://www.climatechange.ai </a>
             </div>
             <br/>

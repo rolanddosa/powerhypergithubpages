@@ -34,7 +34,7 @@ export class Home extends React.Component {
 
                 <br/>
                 <div className={"text-center"}>
-                    The motivation behind PowerHyper - getting these greenhouse gases back to the levels they
+                    The motivation behind PowerHyper - Lowering the greenhouse gases to the levels they
                     were a few centuries ago ↓↓↓<br/>
                     Trackers provided by <a
                         href="https://www.2degreesinstitute.org/"

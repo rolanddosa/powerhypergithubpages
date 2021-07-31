@@ -28,6 +28,14 @@ function Startups() {
                             variant="primary">https://gravitricity.com/</Button>
                 </Card.Body>
             </Card>
+            <br/>
+            <Card className="text-center" style={{width: '25rem'}}>
+                <Card.Body>
+                    <Card.Title>https://solarcoin.org/</Card.Title>
+                    <Card.Text>
+                    </Card.Text>
+                </Card.Body>
+            </Card>
         </div>
     )
 }
