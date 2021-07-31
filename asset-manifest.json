@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e7b00963.chunk.css",
-    "main.js": "/static/js/main.87b3e452.chunk.js",
-    "main.js.map": "/static/js/main.87b3e452.chunk.js.map",
+    "main.js": "/static/js/main.ce01cebf.chunk.js",
+    "main.js.map": "/static/js/main.ce01cebf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.adb6c7ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.adb6c7ad.js.map",
     "static/css/2.48662e00.chunk.css": "/static/css/2.48662e00.chunk.css",
-    "static/js/2.a0665740.chunk.js": "/static/js/2.a0665740.chunk.js",
-    "static/js/2.a0665740.chunk.js.map": "/static/js/2.a0665740.chunk.js.map",
+    "static/js/2.c0607891.chunk.js": "/static/js/2.c0607891.chunk.js",
+    "static/js/2.c0607891.chunk.js.map": "/static/js/2.c0607891.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.48662e00.chunk.css.map": "/static/css/2.48662e00.chunk.css.map",
     "static/css/main.e7b00963.chunk.css.map": "/static/css/main.e7b00963.chunk.css.map",
-    "static/js/2.a0665740.chunk.js.LICENSE.txt": "/static/js/2.a0665740.chunk.js.LICENSE.txt",
+    "static/js/2.c0607891.chunk.js.LICENSE.txt": "/static/js/2.c0607891.chunk.js.LICENSE.txt",
     "static/media/CO2_history.c31febb6.jpg": "/static/media/CO2_history.c31febb6.jpg",
     "static/media/ECOHZ-EAC-Map.3b5c4560.jpg": "/static/media/ECOHZ-EAC-Map.3b5c4560.jpg",
     "static/media/EUEnergyStats.6671a313.jpg": "/static/media/EUEnergyStats.6671a313.jpg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.adb6c7ad.js",
     "static/css/2.48662e00.chunk.css",
-    "static/js/2.a0665740.chunk.js",
+    "static/js/2.c0607891.chunk.js",
     "static/css/main.e7b00963.chunk.css",
-    "static/js/main.87b3e452.chunk.js"
+    "static/js/main.ce01cebf.chunk.js"
   ]
 }
