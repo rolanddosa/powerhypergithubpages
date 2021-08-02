@@ -7,7 +7,7 @@ import {Ambition} from "./components/Ambition";
 import {HashRouter, Route} from "react-router-dom";
 import {Home} from "./components/Home";
 import {Timeline} from "./components/Timeline/Timeline";
-import {EnergyEconomics} from "./components/EnergyEconomics";
+import {FundingRenewableEnergy} from "./components/FundingRenewableEnergy";
 import 'bootstrap';
 import {EnergyAttributeCertificates} from "./components/EnergyAttributeCertificates";
 import {LiveTracker} from "./components/LiveTracker";
@@ -17,6 +17,8 @@ import Startups from "./components/Startups";
 import {PowerPurchaseAgreements} from "./components/PowerPurchaseAgreements";
 import {EnergyMarkets} from "./components/EnergyMarkets";
 import {CommunityEnergy} from "./components/CommunityEnergy";
+import {SustainableInvesting} from "./components/SustainableInvesting";
+import {CircularEconomy} from "./components/CircularEconomy";
 //TODO:
 //https://earthobservatory.nasa.gov/global-maps
 //https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data
@@ -29,13 +31,15 @@ function App() {
             <Route path="/" exact component={Home}/>
             <Route path={"/ambition"} component={Ambition}/>
             <Route path={"/timeline"} component={Timeline}/>
-            <Route path={"/energyEconomics"} component={EnergyEconomics}/>
+            <Route path={"/fundingRenewableEnergy"} component={FundingRenewableEnergy}/>
             <Route path={"/powerPurchaseAgreements"} component={PowerPurchaseAgreements}/>
             <Route path={"/energyMarkets"} component={EnergyMarkets}/>
             <Route path={"/communityEnergy"} component={CommunityEnergy}/>
+            <Route path={"/circularEconomy"} component={CircularEconomy}/>
             <Route path={"/liveTracker"} component={LiveTracker}/>
             <Route path={"/energyAttributeCertificates"} component={EnergyAttributeCertificates}/>
             <Route path={"/machineLearning"} component={MachineLearning}/>
+            <Route path={"/sustainableInvesting"} component={SustainableInvesting}/>
             <Route path={"/startups"} component={Startups}/>
             <Route path={"/copyrightDisclaimer"} component={CopyrightDisclaimer}/>
             <Footer/>
