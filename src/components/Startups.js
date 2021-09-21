@@ -35,6 +35,11 @@ function Startups() {
                     <Card.Text>
                     </Card.Text>
                 </Card.Body>
+                <Card.Body>
+                    <Card.Title>https://aetherdiamonds.com/</Card.Title>
+                    <Card.Text>
+                    </Card.Text>
+                </Card.Body>
             </Card>
         </div>
     )

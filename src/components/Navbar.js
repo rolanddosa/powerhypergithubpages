@@ -30,6 +30,7 @@ function Navbar() {
                                 <a className="dropdown-item" href="#/fundingRenewableEnergy">Funding Renewable Energy</a>
                                 <a className="dropdown-item" href="#/powerPurchaseAgreements">Power Purchase Agreements (PPA)</a>
                                 <a className="dropdown-item" href="#/energyMarkets">Energy Markets</a>
+                                <a className="dropdown-item" href="#/carbonMarkets">Carbon Markets</a>
                             </div>
                         </li>
                         <li className="nav-item">
