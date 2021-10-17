@@ -10,6 +10,21 @@ export class Timeline extends React.Component {
                 <style>{'body { background-color: #89dfff; }'}</style>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
+                    date="2021"
+                    iconStyle={{background: 'rgb(186, 255, 59)', color: '#d51111 '}}
+                >
+                    <h3 className="vertical-timeline-element-title">Earthshot Prize <a
+                        href="https://earthshotprize.org/"
+                        target="_blank">https://earthshotprize.org/</a></h3>
+                    <p className="vertical-timeline-element-subtitle">The Earthshot Prize is the most prestigious global
+                        environment prize in history, designed to incentivise change and help repair our planet over the
+                        next ten years.
+                        The Prize aims to turn the current pessimism surrounding environmental issues into optimism, by
+                        highlighting the ability of human ingenuity to bring about change, and inspiring collective
+                        action.</p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
                     date="June 2019"
                     iconStyle={{background: 'rgb(186, 255, 59)', color: '#d51111 '}}
                     //icon={<WorkIcon />}
