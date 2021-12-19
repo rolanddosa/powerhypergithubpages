@@ -27,7 +27,7 @@ export class SustainableInvesting extends React.Component {
                     by simply choosing where to keep savings. The people should investigate what their money in
                     savings accounts and pensions are used for. Examples of sustainability / ESG focused companies:<br/>
                 </p>
-                <div style={{textAlign: 'center'}}>
+                <div style={{textAlign: 'center'}} width="80%">
                     <YouTube videoId="yQj6MSsTulg">
                     </YouTube>
                 </div>

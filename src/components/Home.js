@@ -16,7 +16,7 @@ export class Home extends React.Component {
     //todo: video to show changes in powersources over time, like the ones on instagram where most used jumps to top
     render() {
         return (
-            <div className="my-5 ml-5 mr-5">
+            <div className="my-5 ml-5 mr-5 home">
                 <br/>
                 <FadeIn>
                     <div>
@@ -37,8 +37,8 @@ export class Home extends React.Component {
                     The motivation behind PowerHyper - Lowering the greenhouse gases to the levels they
                     were a few centuries ago ↓↓↓<br/>
                     Trackers provided by <a
-                        href="https://www.2degreesinstitute.org/"
-                        target="_blank">2° Institute</a>
+                    href="https://www.2degreesinstitute.org/"
+                    target="_blank">2° Institute</a>
                 </div>
                 <br/>
                 <div id="greenhouseGasesWidgets" className={"text-center"}>
@@ -89,8 +89,8 @@ export class Home extends React.Component {
                 <br/>
                 <div className={"text-center"}>
                     <img
-                        className="imgthumbnail" height="400"
-                        width="800" alt="Responsive image"
+                        className="imgthumbnail"
+                        width="70%" alt="Responsive image"
                         src={GHG}
                     />
                 </div>
@@ -102,9 +102,11 @@ export class Home extends React.Component {
                 <br/>
                 <div className={"text-center"}> Light introduction to Global Warming Potential (GWP)</div>
                 <br/>
-                <div style={{textAlign: 'center'}}>
-                    <YouTube videoId="niotf0oHvQY">
-                    </YouTube>
+                <div className={'iframe-container'}>
+                    <iframe width="80%" src="https://www.youtube.com/embed/niotf0oHvQY"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen></iframe>
                 </div>
                 <br/>
                 <br/>

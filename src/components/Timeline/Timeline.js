@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 export class Timeline extends React.Component {
     render() {
-        return (
+        return (//add COP26 deal and the document
             <VerticalTimeline bodyAttributes={{style: 'background-color : #FFF'}}>
                 <style>{'body { background-color: #89dfff; }'}</style>
                 <VerticalTimelineElement
