@@ -9,7 +9,6 @@ import GHG from '../images/MainGreenhouseGasesSBI.jpg'
 import './Home.css';
 import FadeIn from 'react-fade-in';
 import Iframe from "react-iframe";
-import YouTube from "react-youtube";
 
 
 export class Home extends React.Component {
@@ -67,6 +66,14 @@ export class Home extends React.Component {
                             position="relative"/>
                 </div>
                 <br/>
+                <div className="world-energy-mix">
+                    <Iframe url="https://ourworldindata.org/grapher/electricity-prod-source-stacked"
+                            width="80%"
+                            height="450px"
+                            id="worldEnergyMix"
+                            display="initial"
+                            position="center"/>
+                </div>
                 Which <a
                 href="https://www.youtube.com/watch?v=sTvqIijqvTg"
                 target="_blank">greenhouse gases</a> cause most damage? (i.e. which gas captures most&nbsp;<a
