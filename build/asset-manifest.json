@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4a7a4cd.chunk.css",
+    "main.js": "/static/js/main.fc827a57.chunk.js",
+    "main.js.map": "/static/js/main.fc827a57.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.adb6c7ad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.adb6c7ad.js.map",
+    "static/css/2.48662e00.chunk.css": "/static/css/2.48662e00.chunk.css",
+    "static/js/2.48024ced.chunk.js": "/static/js/2.48024ced.chunk.js",
+    "static/js/2.48024ced.chunk.js.map": "/static/js/2.48024ced.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.48662e00.chunk.css.map": "/static/css/2.48662e00.chunk.css.map",
+    "static/css/main.a4a7a4cd.chunk.css.map": "/static/css/main.a4a7a4cd.chunk.css.map",
+    "static/js/2.48024ced.chunk.js.LICENSE.txt": "/static/js/2.48024ced.chunk.js.LICENSE.txt",
+    "static/media/CO2_history.c31febb6.jpg": "/static/media/CO2_history.c31febb6.jpg",
+    "static/media/ECOHZ-EAC-Map.3b5c4560.jpg": "/static/media/ECOHZ-EAC-Map.3b5c4560.jpg",
+    "static/media/EUEnergyStats.6671a313.jpg": "/static/media/EUEnergyStats.6671a313.jpg",
+    "static/media/GravitricityLogo.41f20235.png": "/static/media/GravitricityLogo.41f20235.png",
+    "static/media/MainGreenhouseGasesSBI.468f94e4.jpg": "/static/media/MainGreenhouseGasesSBI.468f94e4.jpg",
+    "static/media/built-by-tomorrow.c1c7de64.svg": "/static/media/built-by-tomorrow.c1c7de64.svg",
+    "static/media/climatechangeai_Tackling_Climate_Change_with_Machine_Learning.1f264629.pdf": "/static/media/climatechangeai_Tackling_Climate_Change_with_Machine_Learning.1f264629.pdf",
+    "static/media/gravitricityConcept.f10162fd.png": "/static/media/gravitricityConcept.f10162fd.png",
+    "static/media/instagram_icon.0963b7a5.png": "/static/media/instagram_icon.0963b7a5.png",
+    "static/media/investments.3c26eca0.png": "/static/media/investments.3c26eca0.png",
+    "static/media/solar.38aacd45.jpg": "/static/media/solar.38aacd45.jpg",
+    "static/media/twitter_icon.6e932d40.png": "/static/media/twitter_icon.6e932d40.png",
+    "static/media/wind.8a75e71b.jpg": "/static/media/wind.8a75e71b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adb6c7ad.js",
+    "static/css/2.48662e00.chunk.css",
+    "static/js/2.48024ced.chunk.js",
+    "static/css/main.a4a7a4cd.chunk.css",
+    "static/js/main.fc827a57.chunk.js"
+  ]
+}
