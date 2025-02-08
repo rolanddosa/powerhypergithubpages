@@ -9,6 +9,7 @@ import GHG from '../images/MainGreenhouseGasesSBI.jpg'
 import './Home.css';
 import FadeIn from 'react-fade-in';
 import Iframe from "react-iframe";
+import BuiltByTomorrow from "../images/built-by-tomorrow.svg";
 
 
 export class Home extends React.Component {
@@ -19,7 +20,7 @@ export class Home extends React.Component {
                 <br/>
                 <FadeIn>
                     <div>
-                        <p>PowerHyper shares ideas and findings in helping with the transition to
+                        <p>PowerHyper shares ideas and findings in the transition to
                             renewable energy.
                             <br/>
                         </p>
@@ -73,6 +74,21 @@ export class Home extends React.Component {
                             id="worldEnergyMix"
                             display="initial"
                             position="center"/>
+                </div>
+                <div className={'mt-5 mb-5'} style={{justifyContent:'center', textAlign:'center'}}>
+                    <p>A great tool built by <a href={"https://www.tmrow.com/"} target={"_blank"}>Tomorrow</a> for real time tracking of power generation globally.</p>
+                    <br/>
+                    <img src={BuiltByTomorrow} className="imgthumbnail align-self-center"
+                         width="200" alt="Responsive image"/>
+                    <br/>
+                <br/>
+                    <Iframe url="https://www.electricitymap.org/map"
+                            width="450px"
+                            height="450px"
+                            id="myId"
+                            className="myClassname"
+                            display="initial"
+                            position="relative"/>
                 </div>
                 Which <a
                 href="https://www.youtube.com/watch?v=sTvqIijqvTg"
