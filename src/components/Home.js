@@ -26,7 +26,7 @@ export class Home extends React.Component {
                         </p>
                     </div>
                     <div style={{textIndent: '50px'}}>
-                        It is a platform which gives the readers useful summaries,
+                        A platform which gives the readers useful summaries,
                         contacts and further study points.
                     </div>
                 </FadeIn>
