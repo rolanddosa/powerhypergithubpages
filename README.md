@@ -1,5 +1,5 @@
-Follow steps below to build static files under ./build
-Git checkout gh-pages branch and copy all files under ./build to gh-pages branch
+Follow steps below to build static files under ./build\
+Git checkout gh-pages branch and copy all files under ./build to gh-pages branch\
 Master branch keeps the code, gh-pages branch keeps the static files
 
 # Getting Started with Create React App
