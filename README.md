@@ -1,6 +1,8 @@
-Follow steps below to build static files under ./build\
-Git checkout gh-pages branch and copy all files under ./build to gh-pages branch\
-Master branch keeps the code, gh-pages branch keeps the static files
+1️⃣.Follow steps below to build static files under `./build` with `yarn build`\
+2️⃣.Git checkout `gh-pages` branch and copy all files under `./build` to `gh-pages` branch (copy-paste the files and overwrite the existing ones on `gh-pages`)\
+3️⃣.Push the changes to `gh-pages` branch and they will automatically deploy (to configure this, see https://github.com/rolanddosa/powerhypergithubpages/settings)\
+
+ℹ️`developing-on-macos` branch keeps the code, `gh-pages` branch keeps the deployed static files
 
 # Getting Started with Create React App
 
